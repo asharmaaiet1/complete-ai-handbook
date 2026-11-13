@@ -4,7 +4,7 @@
 
 ### AI fundamentals
 
-Read the five draft lessons in order: [What is AI?](start-here/what-is-ai.md) → [AI vs. ML vs. DL](start-here/ai-vs-ml-vs-dl.md) → [History of AI](start-here/history-of-ai.md) → [Approaches and types](start-here/types-of-ai.md) → [AI applications](start-here/ai-applications.md).
+Read the five published lessons in order: [What is AI?](start-here/what-is-ai.md) → [AI vs. ML vs. DL](start-here/ai-vs-ml-vs-dl.md) → [History of AI](start-here/history-of-ai.md) → [Approaches and types](start-here/types-of-ai.md) → [AI applications](start-here/ai-applications.md).
 
 **Outcome:** explain introductory AI terms and outline considerations for an AI use case. This preview path does not include runnable code or a completed project.
 

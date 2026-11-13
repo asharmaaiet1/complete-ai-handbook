@@ -5,14 +5,14 @@ This roadmap describes planned work, not delivered functionality. The current re
 ## Initial Public Preview — current scope
 
 - [x] Repository structure and project documentation
-- [x] Five AI fundamentals lesson drafts
+- [x] Five published AI fundamentals lessons
 - [x] MkDocs documentation site and learning paths
 - [x] Contribution, security, and community guidance
 - [ ] Check that third-party sources and included material are credited
 - [ ] Confirm GitHub governance and private security reporting settings
 - [ ] Run and record all release checks against the exact release commit
 
-The checked items describe files present in the repository. They do not imply that all lesson drafts have passed expert review.
+The checked items describe files present in the repository. Publication means the lessons are available to readers; it does not imply they have passed expert review.
 
 ## Future work — not included in this preview
 
@@ -50,7 +50,7 @@ Before a lesson is described as reviewed:
 3. Run code and state tested versions, or label it as pseudocode.
 4. Check diagrams against the explanation.
 5. Explain relevant limitations, failure modes, privacy, and security concerns.
-6. Record the review date only after a substantive review; keep draft status until then.
+6. Record a review date only after a substantive review. Publication status and expert review status are separate.
 
 ## Planning notes
 

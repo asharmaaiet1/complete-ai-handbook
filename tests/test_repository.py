@@ -140,7 +140,7 @@ def test_contribution_request_form_has_expected_required_fields() -> None:
     assert fields["proposal"]["validations"]["min_length"] == 50
 
 
-def test_five_preview_lessons_are_present_and_marked_as_drafts() -> None:
+def test_five_preview_lessons_are_present_and_published() -> None:
     lessons_dir = ROOT / "docs" / "start-here"
     for name in CANONICAL_LESSONS:
         path = lessons_dir / name
@@ -148,7 +148,7 @@ def test_five_preview_lessons_are_present_and_marked_as_drafts() -> None:
         assert content.startswith("---\n"), f"Missing YAML front matter: {path}"
         front_matter = content.split("---\n", 2)[1]
         metadata = yaml.safe_load(front_matter)
-        assert metadata["status"] == "draft", f"Preview lesson is not marked draft: {path}"
+        assert metadata["status"] == "published", f"Preview lesson is not marked published: {path}"
         assert "last_updated" in metadata, f"Missing update date: {path}"
         assert len(content) >= 1000, f"Lesson content appears incomplete: {path}"
 

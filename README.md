@@ -18,7 +18,7 @@ The canonical lesson sources are in [`docs/start-here/`](docs/start-here/README.
 - [Major Approaches and Types of AI](docs/start-here/types-of-ai.md)
 - [AI Applications in the Real World](docs/start-here/ai-applications.md)
 
-All five lessons are drafts for this preview. They are introductory reading, not a substitute for technical review or domain-specific advice.
+All five lessons are published introductory reading. Publication does not mean expert review, and they are not a substitute for domain-specific advice.
 
 ## Planned curriculum
 
@@ -57,4 +57,4 @@ GitHub allows people to view and fork public repositories under its platform ter
 
 ## Project status
 
-This is an early preview, not a completed course or a claim that every listed topic is available. Check each lesson's draft status and references. See [CHANGELOG.md](CHANGELOG.md) for project history and [CONTRIBUTING.md](CONTRIBUTING.md) for the approval-first contribution process.
+This is an early preview, not a completed course or a claim that every listed topic is available. Check each lesson's references. See [CHANGELOG.md](CHANGELOG.md) for project history and [CONTRIBUTING.md](CONTRIBUTING.md) for the approval-first contribution process.

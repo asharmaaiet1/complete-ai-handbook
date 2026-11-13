@@ -7,7 +7,7 @@ prerequisites:
   - "What Is Artificial Intelligence?"
 content_type:
   - "Theory"
-status: "draft"
+status: "published"
 last_updated: "2026-11-14"
 ---
 
