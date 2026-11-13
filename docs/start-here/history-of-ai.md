@@ -8,7 +8,7 @@ prerequisites:
 content_type:
   - "Theory"
 status: "draft"
-last_reviewed: "2026-11-14"
+last_updated: "2026-11-14"
 ---
 
 # A Short History of Artificial Intelligence
@@ -24,11 +24,11 @@ last_reviewed: "2026-11-14"
 
 Ideas about mechanical reasoning, formal logic and computation developed long before AI became a named research field. Mathematical logic, probability, information theory and the theory of computation helped establish foundations for asking whether machines could perform reasoning-like tasks.
 
-In 1950, Alan Turing published "Computing Machinery and Intelligence," which proposed the imitation game as a way to discuss machine intelligence. It did not settle the philosophical question of intelligence, but it became an influential reference point.
+In 1950, Alan Turing published ["Computing Machinery and Intelligence"](https://academic.oup.com/mind/article/LIX/236/433/986238), which proposed the imitation game as a way to discuss machine intelligence. It did not settle the philosophical question of intelligence, but it became an influential reference point.
 
 ## 2. The field takes shape
 
-The 1956 Dartmouth summer research project is commonly associated with the formal launch of AI as a research field. Early researchers explored symbolic reasoning, theorem proving, game playing and problem solving.
+The [1955 Dartmouth proposal for the 1956 summer research project](http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf) is commonly associated with the formal launch of AI as a research field. Early researchers explored symbolic reasoning, theorem proving, game playing and problem solving.
 
 A central idea in symbolic AI was that knowledge and reasoning could be represented explicitly through symbols and rules.
 
@@ -69,11 +69,11 @@ Important developments included:
 - Recurrent architectures being used for sequential data.
 - GPUs making large-scale numerical computation more accessible.
 
-The 2012 ImageNet result associated with AlexNet is often cited as a major milestone in modern deep learning, but it built on earlier work in neural networks, computer vision and large-scale datasets.
+The [2012 ImageNet result associated with AlexNet](https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html) is often cited as a major milestone in modern deep learning, but it built on earlier work in neural networks, computer vision and large-scale datasets.
 
 ## 7. Transformers and foundation models
 
-The 2017 paper "Attention Is All You Need" introduced the Transformer architecture. Transformers later became central to many language models and multimodal systems.
+The 2017 paper ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) introduced the Transformer architecture. Transformers later became central to many language models and multimodal systems.
 
 Subsequent developments included:
 

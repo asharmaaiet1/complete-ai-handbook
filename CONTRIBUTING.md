@@ -1,105 +1,66 @@
 # Contributing to Complete AI Handbook
 
-Thank you for considering contributing to Complete AI Handbook.
+This project is a public educational resource for software developers. Its initial preview is maintained by the project owner.
 
-This project aims to create a comprehensive, technically accurate and practical AI learning resource for software developers. We welcome contributions from developers, researchers, educators and AI enthusiasts.
+## Approval before implementation
 
-## 1. Ways to contribute
+Contributions follow an approval-first process:
 
-- Create new tutorials.
-- Improve explanations or correct technical inaccuracies.
-- Add mathematical examples and runnable code.
-- Create architecture diagrams.
-- Explain research papers.
-- Add practical projects and coding exercises.
-- Improve documentation and fix broken references.
+1. Open a **Contribution Request** issue using the provided form. Describe the learning gap, proposed scope, and intended files or examples.
+2. Wait for an explicit written approval from the project owner and an agreed scope. An unanswered request is not approval.
+3. After approval, the owner will confirm whether collaborator access is needed and how to submit the work.
+4. Do not begin work intended for submission or open a pull request before approval. Public bug reports and questions are welcome, but do not grant contribution access.
+5. Every pull request requires maintainer review and approval before merge. The owner retains final merge authority.
 
-## 2. Before you start
+Repository files describe this process but cannot enforce it. Before inviting contributions, the owner must configure GitHub to restrict pull requests to approved collaborators and protect `main`; see [`GITHUB_MANUAL_SETUP.md`](GITHUB_MANUAL_SETUP.md).
 
-1. Check existing issues and pull requests.
-2. Search for an existing tutorial on your proposed topic.
-3. Open an issue for substantial new content.
-4. Discuss the scope before starting large contributions.
+## Approved work workflow
 
-Small typo fixes and straightforward corrections do not require an issue.
+After approval and collaborator access:
 
-## 3. Development workflow
-
-1. Fork the repository.
-2. Clone your fork.
-3. Create a descriptive branch.
-4. Make your changes.
-5. Validate Markdown and code.
-6. Test executable examples.
-7. Submit a pull request.
+1. Agree on the change's scope and relevant files.
+2. Create a descriptive branch.
+3. Make only the approved change and preserve existing useful content.
+4. Run the checks below and include any limitations in the pull request.
+5. Open a pull request using the repository template and wait for maintainer review.
 
 ```bash
-git clone https://github.com/asharmaaiet1/complete-ai-handbook.git
-cd complete-ai-handbook
-git checkout -b content/your-topic
-git add .
-git commit -m "docs: add your topic"
-git push origin content/your-topic
+python -m pip install -r requirements-dev.txt
+ruff check .
+pytest -q
+mkdocs build --strict
 ```
 
-## 4. Content quality
+Use Python 3.12 for the project checks. CI runs the same tools on Python 3.12. Do not claim checks passed unless they were run successfully.
 
-Major tutorials should explain prerequisites, learning objectives, motivation, internal mechanisms, relevant mathematics, implementation, limitations, exercises and credible references.
+## Content quality
 
-Do not copy content from other websites, books, courses or repositories. Paraphrased research must be attributed. Clearly label opinions, experimental results and unverified claims.
+Major tutorials should include clear learning objectives, prerequisites, a technically sound explanation, worked examples where useful, limitations, exercises, and references. Link important factual claims to reliable sources near the claim. Clearly distinguish established knowledge, assumptions, and unsettled terminology. Mark draft content honestly.
 
-Use the [tutorial template](TUTORIAL_TEMPLATE.md).
+Use [`TUTORIAL_TEMPLATE.md`](TUTORIAL_TEMPLATE.md). Code should be executable with documented versions or clearly labeled as pseudocode. Keep lesson snippets synchronized with maintained examples.
 
-## 5. Code quality
+## Code and data
 
-### Python
+- Python examples should use type hints where appropriate and pass Ruff checks.
+- TypeScript examples should use strict types and document setup and environment variables.
+- Document dependencies and test commands; do not add dependencies without a clear need.
+- Use synthetic or explicitly licensed data. Never include secrets, credentials, private personal data, or unauthorized datasets.
+- Treat model output and retrieved content as untrusted. Explain security limits for examples involving tools, code execution, or sensitive data.
 
-- Follow PEP 8.
-- Use type hints where appropriate.
-- Use Ruff for linting and formatting.
-- Use Pytest for tests.
-- Document and constrain dependencies.
+## References and assets
 
-### TypeScript
+Prefer primary research and official documentation. Do not invent citations, benchmarks, or results. Preserve third-party notices, provide source and license details, and make clear which material is excluded from the project licenses.
 
-- Use strict TypeScript.
-- Follow the project's formatting and linting rules.
-- Document required environment variables.
-- Test important functionality.
+## Pull request and automated checks
 
-All examples should be reproducible using documented setup instructions.
+The pull request should explain what changed, why it is in the approved scope, and which learning domains it affects. Before requesting review, run `ruff check .`, `pytest -q`, and `mkdocs build --strict` as applicable. The PR checklist mirrors these checks; CI results are required but do not replace technical, educational, security, or license review.
 
-Never commit API keys, passwords, private credentials, personal information, unauthorized datasets or unapproved large model files. Use `.env.example` for environment-variable documentation.
+## Reuse and contributions
 
-## 6. Diagrams and visual assets
+This is a personal project, not an open-source or open-content release. Please ask before copying or reposting its original code or lessons. Third-party material belongs to its respective authors.
 
-- Prefer Mermaid for simple diagrams.
-- Use editable draw.io source for complex diagrams.
-- Explain diagrams in the accompanying tutorial.
-- Credit third-party visual assets and respect their licenses.
+The approval-first process still applies. Owner approval to begin work is not automatic permission to copy or publish a finished contribution. Before work is accepted, the contributor and owner should agree simply on how it can be included and credited.
 
-## 7. Research and references
+## Community
 
-Prioritize original research papers, official technical documentation, reputable academic publications and established engineering resources. Link to original sources where possible. Do not invent benchmarks, performance claims or research results.
-
-## 8. Pull requests
-
-A pull request should have a descriptive title, explain what changed and why, identify affected domains, include references where applicable, and confirm that code and documentation checks have been run.
-
-## 9. Review process
-
-Contributions are evaluated for technical correctness, educational value, clarity, originality, code quality, reproducibility, reference quality and security implications. Maintainers may request revisions.
-
-## 10. Community conduct
-
-Be respectful, constructive and inclusive. Technical disagreement is welcome when supported by evidence. Harassment, personal attacks and discriminatory behavior are not acceptable. See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
-
-## 11. Licensing
-
-By submitting a contribution, you confirm that you have the right to contribute it. Source code is distributed under Apache License 2.0; original educational documentation is distributed under CC BY-SA 4.0. Third-party material remains subject to its own license and attribution requirements.
-
-## 12. Our philosophy
-
-Understand before implementing. Verify before teaching. Build before recommending. Document before assuming.
-
-Thank you for helping make AI education more accessible.
+Be respectful and constructive. See [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md). For security concerns, follow [`SECURITY.md`](SECURITY.md); do not post exploit details publicly.

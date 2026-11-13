@@ -2,29 +2,24 @@
 
 ## Reporting a vulnerability
 
-Please do not disclose exploitable vulnerabilities in a public issue.
+Please do not post credentials, personal data, exploit steps, or other sensitive vulnerability details in a public issue or discussion.
 
-Until a private security contact is configured, do not include secrets, personal data or exploit details in public discussions. The repository owner should configure GitHub's private vulnerability reporting and add a monitored security contact before accepting production-sensitive code.
+The owner should enable **Private vulnerability reporting** in the repository's GitHub Security settings before broad public release. When enabled, use the repository's **Report a vulnerability** flow in the Security tab to send a private report. GitHub settings and menu availability can vary by repository eligibility; the owner must verify the feature is enabled and monitored.
+
+If private vulnerability reporting is unavailable or disabled, do not publish exploit details. Use GitHub's private contact route to the repository owner only if one is available. If no private route is available, wait until the owner configures one; this repository does not publish an email address for security reports.
+
+Please include a concise impact description, affected paths or versions, and safe reproduction details only through a private channel. Allow the maintainer time to investigate and coordinate a fix before public disclosure.
 
 ## Scope
 
-Security reports may concern:
+Reports may concern exposed credentials, unsafe example execution, vulnerable dependencies, data leakage, authorization errors, prompt injection or unsafe tool use, and insecure build or deployment instructions.
 
-- Exposed credentials or secrets.
-- Unsafe code execution in examples.
-- Insecure dependency or build configuration.
-- Data leakage in sample applications.
-- Authentication, authorization or tenant-isolation flaws.
-- Prompt injection and unsafe tool-use demonstrations.
-- Vulnerable dependencies.
+## Safe practices
 
-## Safe contribution practices
-
-- Never commit real API keys or credentials.
+- Never commit real credentials; use documented placeholder values.
 - Use synthetic or explicitly licensed datasets.
 - Treat model output and retrieved documents as untrusted input.
-- Validate and authorize tool calls on the server.
-- Avoid executing generated code without isolation and explicit controls.
-- Keep dependencies reviewed and updated.
+- Authorize tool calls on the server and avoid executing generated code without isolation.
+- Review dependency and build changes.
 
-Educational examples are not automatically production-safe. Each tutorial must explain relevant limitations.
+Educational examples are not automatically production-safe. Each tutorial should explain relevant limitations and safeguards.

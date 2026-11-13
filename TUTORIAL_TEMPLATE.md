@@ -9,83 +9,72 @@ content_type:
   - "Theory"
   - "Implementation"
 status: "draft"
-last_reviewed: "YYYY-MM-DD"
+last_updated: "YYYY-MM-DD"
+# Add last_reviewed only after a substantive technical and educational review.
 ---
 
 # Tutorial title
 
 ## Learning objectives
 
-By the end of this tutorial, you should be able to:
+By the end of this tutorial, readers should be able to:
 
-- Objective 1
-- Objective 2
-- Objective 3
+- State an observable learning outcome.
+- Explain or apply the central idea.
 
-## 1. Introduction
+## 1. Introduction and motivation
 
-Explain the concept in clear language.
+Introduce the problem, who encounters it, and why the topic matters. Define unfamiliar terms before using them technically.
 
-## 2. The problem it solves
+## 2. Prerequisites and setup
 
-Describe the real-world problem and why this approach exists.
+List the knowledge, software, data, and tested versions needed. For runnable examples, include exact setup instructions. Clearly label pseudocode and do not present it as executable.
 
-## 3. Background and evolution
+## 3. Core concepts and technical explanation
 
-Provide relevant historical or technical context.
+Explain the mechanism in enough detail for readers to reason about it. Use a worked example and clarify what the system does and does not do. Link important factual claims to credible sources near the claim.
 
-## 4. Core concepts
+## 4. Mathematical foundation (when relevant)
 
-Define terminology and explain the important building blocks.
+Introduce notation and formulas only when they help explain the topic. Define each symbol and work through a numerical example. Mark optional advanced material clearly.
 
-## 5. How it works internally
+## 5. Architecture or visual explanation (when useful)
 
-Explain the mechanism step by step. Include a numerical example where useful.
+Use Mermaid or an editable diagram when it clarifies components, sequence, or data flow. Explain the diagram in surrounding text.
 
-## 6. Mathematical foundation
+## 6. Practical implementation
 
-Introduce relevant notation and formulas. Explain each variable and work through an example. Mark optional advanced mathematics clearly.
+Provide a runnable Python or TypeScript example where appropriate. State exact dependencies and versions, how to run it, expected output, and deliberate simplifications. Keep snippets synchronized with the maintained example.
 
-## 7. Architecture and data flow
+## 7. Applications, trade-offs, and production considerations
 
-Use Mermaid or an editable diagram when it improves understanding. Explain each component and its inputs and outputs.
+Explain suitable use cases, alternatives, performance and cost considerations, security and privacy risks, failure modes, monitoring, and fallback behavior as relevant.
 
-## 8. Implementation from scratch
+## 8. Common mistakes
 
-Build a simplified educational implementation when doing so improves understanding. State what the simplified version omits.
+Describe likely misconceptions or implementation errors and how to recognize or avoid them.
 
-## 9. Practical implementation
+## 9. Exercises and challenges
 
-Show a reproducible implementation with an appropriate library or framework. Include setup instructions and tested versions.
+Include tasks that help readers apply the material. Provide hints or solutions separately when useful.
 
-## 10. Real-world applications
+## 10. Knowledge check
 
-Explain use cases, trade-offs and when this approach is or is not suitable.
+Ask questions that test understanding, not just recall.
 
-## 11. Performance and optimization
+## 11. Summary
 
-Discuss relevant latency, memory, compute, cost and scalability considerations.
+Recap the central ideas and practical takeaways.
 
-## 12. Security, limitations and failure modes
+## 12. References
 
-Explain risks, assumptions and mitigations.
+Prefer primary research, official documentation, and reputable technical sources. Identify sources accurately, cite claims near the text, and distinguish established results from active research or opinion. Do not include unverified references.
 
-## 13. Common mistakes
+## Review checklist
 
-List common misunderstandings and incorrect implementations.
-
-## 14. Exercises
-
-Include conceptual questions and practical tasks. Provide solutions separately where appropriate.
-
-## 15. Knowledge check
-
-Add questions that test understanding rather than memorization.
-
-## 16. Summary
-
-Summarize the essential ideas.
-
-## 17. References
-
-Prioritize original research and official documentation. Attribute third-party material and avoid unsupported claims.
+- [ ] Claims and references checked
+- [ ] Code run with versions recorded, or marked as pseudocode
+- [ ] Diagram matches the text
+- [ ] Limitations, failure modes, and relevant security/privacy issues covered
+- [ ] Educational clarity reviewed
+- [ ] `last_reviewed` added only after the review above is complete

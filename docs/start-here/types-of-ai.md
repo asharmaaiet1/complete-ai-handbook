@@ -9,7 +9,7 @@ prerequisites:
 content_type:
   - "Theory"
 status: "draft"
-last_reviewed: "2026-11-14"
+last_updated: "2026-11-14"
 ---
 
 # Major Approaches and Types of AI
@@ -40,7 +40,7 @@ Most deployed AI products today are narrow systems, even when they support many 
 
 ### Artificial General Intelligence (AGI)
 
-AGI is a debated concept referring broadly to AI with general capabilities across a wide range of tasks. There is no universally accepted operational test or single agreed threshold that settles whether a system qualifies.
+AGI is a debated concept referring broadly to AI with general capabilities across a wide range of tasks. There is no universally accepted operational test or single agreed threshold that settles whether a system qualifies. Treat claims about AGI as dependent on the definition and evaluation criteria being used.
 
 When discussing AGI, define the capability criteria rather than treating the label as a settled technical category.
 
@@ -137,7 +137,7 @@ flowchart TD
     H --> I
 ```
 
-This is only a starting point. Real solution selection also depends on accuracy requirements, explainability, data access, privacy, latency, cost, maintainability and risk.
+This is only a starting point. Real solution selection also depends on accuracy requirements, explainability, data access, privacy, latency, cost, maintainability and risk. The [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) provides additional context for identifying and managing system risks.
 
 ## 6. Common misconceptions
 
@@ -162,5 +162,5 @@ Design a simple architecture for an expense categorization application. Decide w
 ## 9. Further reading
 
 - [Google Machine Learning Glossary](https://developers.google.com/machine-learning/glossary)
-- [Stanford CS221: Artificial Intelligence](https://web.stanford.edu/class/cs221/)
+- [Stanford CS221: Artificial Intelligence](https://stanford-cs221.github.io/autumn2026/)
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)

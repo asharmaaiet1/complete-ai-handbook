@@ -1,55 +1,19 @@
 # Start Here
 
-Welcome to Complete AI Handbook.
+This preview is for software developers who want a clear first pass through AI fundamentals. It contains five beginner-level draft lessons. Mathematics, Python, machine learning, and the later engineering subjects are planned rather than included here.
 
-This handbook is designed for software developers who want to move from understanding AI fundamentals to building and operating real AI systems.
+## Available lessons
 
-## How to use the handbook
+1. [What Is Artificial Intelligence?](what-is-ai.md)
+2. [AI vs. Machine Learning vs. Deep Learning](ai-vs-ml-vs-dl.md)
+3. [A Short History of Artificial Intelligence](history-of-ai.md)
+4. [Major Approaches and Types of AI](types-of-ai.md)
+5. [AI Applications in the Real World](ai-applications.md)
 
-You can follow the recommended sequence or jump to a topic you already understand. Each major tutorial should state its prerequisites, level, estimated time and tested dependencies.
+## Suggested order
 
-### Recommended sequence
+Start with the definition, compare AI/ML/deep learning, then read the historical and approach-based lessons. Finish by applying the ideas to a use case. Prior knowledge of AI is not required; basic programming and algebra are helpful but not required for these conceptual lessons.
 
-1. Understand AI, machine learning and deep learning.
-2. Refresh Python and the mathematics needed for AI.
-3. Learn data preparation and classical machine learning.
-4. Study neural networks and deep learning.
-5. Explore NLP, computer vision and generative models.
-6. Understand transformers and large language models.
-7. Build retrieval, tool-using and agentic applications.
-8. Learn evaluation, security, deployment and system design.
+## Preview limitations
 
-## What you should know first
-
-Helpful but not mandatory:
-
-- Basic programming concepts: variables, functions, loops and data structures.
-- Basic algebra: equations, graphs and percentages.
-- Familiarity with APIs, JSON and command-line tools.
-
-If Python is new to you, complete the Python fundamentals track before attempting the implementation-heavy tutorials.
-
-## How each major tutorial is structured
-
-- Learning objectives and prerequisites.
-- Problem statement and motivation.
-- Core concepts and terminology.
-- Internal working, with examples.
-- Mathematical intuition where relevant.
-- Diagrams and data flow where useful.
-- Implementation from scratch where educationally valuable.
-- Library/framework implementation.
-- Limitations, failure modes and security.
-- Exercises, knowledge checks and references.
-
-## First lessons
-
-- [What is Artificial Intelligence?](what-is-ai.md)
-- [AI vs. Machine Learning vs. Deep Learning](ai-vs-ml-vs-dl.md)
-- [A short history of AI](history-of-ai.md)
-- [Major approaches and types of AI](types-of-ai.md)
-- [AI applications in the real world](ai-applications.md)
-
-## A note about accuracy
-
-AI is a broad and rapidly changing field. This handbook distinguishes established principles from active research and product-specific behavior. Check each tutorial's review date and version notes before relying on code in a production system.
+These lessons are marked as drafts. They introduce concepts and include questions or exercises, but they do not yet provide runnable code, complete solutions, or expert review. Each lesson lists further reading; treat that list as a starting point and consult the linked source directly.
