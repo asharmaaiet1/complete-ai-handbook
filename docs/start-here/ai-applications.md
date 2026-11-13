@@ -8,7 +8,7 @@ prerequisites:
 content_type:
   - "Theory"
   - "Exercise"
-status: "draft"
+status: "published"
 last_updated: "2026-11-14"
 ---
 

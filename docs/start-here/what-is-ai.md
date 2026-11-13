@@ -7,7 +7,7 @@ prerequisites: []
 languages: []
 content_type:
   - "Theory"
-status: "draft"
+status: "published"
 last_updated: "2026-11-14"
 ---
 
