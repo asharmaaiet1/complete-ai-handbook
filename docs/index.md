@@ -2,8 +2,8 @@
 
 ## Understand AI. Build AI. Engineer AI.
 
-Welcome to the documentation site for Complete AI Handbook.
+Welcome to the **Initial Public Preview** of Complete AI Handbook. This documentation site currently contains five draft lessons about AI fundamentals.
 
-Start with [AI fundamentals](start-here/README.md), follow the [learning paths](learning-paths.md), or explore the [project roadmap](../ROADMAP.md) in the source repository.
+Start with [AI fundamentals](start-here/README.md), follow the [learning paths](learning-paths.md), or read the [roadmap](https://github.com/asharmaaiet1/complete-ai-handbook/blob/main/ROADMAP.md) for planned work. Planned areas are not yet completed lessons.
 
-This handbook is under active development. Check tutorial metadata for review status and dates.
+The project aims to combine theory with practical implementation for software developers. This preview does not yet include runnable Python or TypeScript examples. Check each lesson's status and references before relying on it.

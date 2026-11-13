@@ -1,36 +1,34 @@
+## Approval and scope
+
+- [ ] I received explicit project owner approval before starting this work.
+- [ ] This pull request matches the approved scope.
+
 ## Description
 
-What does this change add or improve?
+What changed, why, and which user or learning need does it address?
 
 ## Learning domain
 
 - [ ] AI fundamentals
-- [ ] Mathematics
-- [ ] Python
-- [ ] Machine learning
-- [ ] Deep learning
-- [ ] Generative AI / LLMs
-- [ ] RAG / agents
-- [ ] AI engineering / system design
-- [ ] Other
+- [ ] Mathematics / Python / data
+- [ ] Machine learning / deep learning
+- [ ] Generative AI / LLMs / retrieval / agents
+- [ ] AI application engineering / production systems
+- [ ] Other:
 
-## Contribution type
+## Quality review
 
-- [ ] New tutorial
-- [ ] Tutorial improvement
-- [ ] Code example or project
-- [ ] Diagram
-- [ ] Research explanation
-- [ ] Bug fix
-- [ ] Documentation improvement
+- [ ] Important technical claims have nearby credible references.
+- [ ] Code is runnable with documented versions, or clearly marked as pseudocode.
+- [ ] Internal Markdown links and MkDocs navigation are valid.
+- [ ] No unauthorized third-party content, secrets, private data, or unlicensed datasets are included.
+- [ ] Relevant security, privacy, limitations, and failure behavior are documented.
+- [ ] I ran the automated checks below and report any failures or limits.
 
-## Quality checklist
+```text
+ruff check .
+pytest -q
+mkdocs build --strict
+```
 
-- [ ] Technical claims verified
-- [ ] Prerequisites and learning objectives included
-- [ ] Code tested or clearly marked as pseudocode
-- [ ] Dependencies and versions documented
-- [ ] Diagrams checked
-- [ ] Sources credited
-- [ ] No secrets or private data included
-- [ ] Relevant checks pass
+CI results are required before merge; automated checks do not replace maintainer review.

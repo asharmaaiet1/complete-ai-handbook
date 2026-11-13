@@ -1,8 +1,6 @@
 name: Contribution Request
 description: Request permission to contribute to the Complete AI Handbook.
 title: "[Contribution Request]: "
-labels:
-  - contribution-request
 body:
   - type: markdown
     attributes:
@@ -56,7 +54,7 @@ body:
         The problem or learning gap it addresses is...
     validations:
       required: true
-      min-length: 50
+      min_length: 50
 
   - type: textarea
     id: scope

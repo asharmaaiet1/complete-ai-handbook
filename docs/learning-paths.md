@@ -1,33 +1,45 @@
 # Learning Paths
 
-## Path A — AI foundations for developers
+## Available in the Initial Public Preview
 
-AI fundamentals → Python and mathematics → data engineering → machine learning.
+### AI fundamentals
 
-**Milestone:** Build and evaluate a prediction application.
+Read the five draft lessons in order: [What is AI?](start-here/what-is-ai.md) → [AI vs. ML vs. DL](start-here/ai-vs-ml-vs-dl.md) → [History of AI](start-here/history-of-ai.md) → [Approaches and types](start-here/types-of-ai.md) → [AI applications](start-here/ai-applications.md).
 
-## Path B — Machine learning and deep learning
+**Outcome:** explain introductory AI terms and outline considerations for an AI use case. This preview path does not include runnable code or a completed project.
 
-Classical ML → model evaluation → neural networks → PyTorch → NLP and computer vision.
+## Planned paths — content not yet available
 
-**Milestone:** Train and evaluate a neural network.
+The following are learning goals for future releases. Their topic lists are not links to completed courses.
 
-## Path C — Generative AI and LLM engineering
+### Foundations for AI developers
 
-Generative models → tokenization → transformers → inference → embeddings → RAG → fine-tuning.
+Planned: mathematics and Python foundations → data preparation → classical machine learning.
 
-**Milestone:** Build a document intelligence application.
+**Intended milestone:** build and evaluate a prediction application.
 
-## Path D — AI agent engineering
+### Machine learning and deep learning
 
-Tool calling → agent architecture → planning and state → orchestration → interoperability → evaluation and security.
+Planned: classical ML → evaluation → neural networks → PyTorch → NLP and computer vision.
 
-**Milestone:** Build a multi-step agent with controlled tools and human approval.
+**Intended milestone:** train and evaluate a neural network.
 
-## Path E — Production AI architecture
+### Generative AI and LLM engineering
 
-Application architecture → model gateway → evaluation → observability → security → deployment → cost and performance.
+Planned: generative models → tokenization → transformers → inference → embeddings → RAG → fine-tuning.
 
-**Milestone:** Design a secure, observable AI platform.
+**Intended milestone:** build a document intelligence application.
 
-These paths are recommendations, not strict prerequisites. Developers may start with application integration while studying deeper ML foundations in parallel.
+### AI agent engineering
+
+Planned: tool calling → agent architecture → planning and state → orchestration → evaluation and security.
+
+**Intended milestone:** build a multi-step agent with controlled tools and human approval.
+
+### Production AI architecture
+
+Planned: application architecture → model gateway → evaluation → observability → security → deployment → cost and performance.
+
+**Intended milestone:** design a secure, observable AI platform.
+
+See the [roadmap](https://github.com/asharmaaiet1/complete-ai-handbook/blob/main/ROADMAP.md) for scope. Future ordering and milestones may change.

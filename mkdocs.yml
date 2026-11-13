@@ -1,5 +1,5 @@
-site_name: Complete AI Handbook
-site_description: A comprehensive, developer-focused guide to AI, machine learning, deep learning and AI engineering.
+site_name: Complete AI Handbook — Initial Public Preview
+site_description: Initial Public Preview with five draft AI fundamentals lessons for software developers.
 repo_url: https://github.com/asharmaaiet1/complete-ai-handbook
 edit_uri: edit/main/
 docs_dir: docs
@@ -41,7 +41,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra_javascript:
-  - https://unpkg.com/mermaid@11/dist/mermaid.min.js
+  - https://unpkg.com/mermaid@12.3.0/dist/mermaid.min.js
   - javascripts/mermaid.js
 
 plugins:

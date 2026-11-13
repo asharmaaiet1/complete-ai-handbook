@@ -9,7 +9,7 @@ languages: []
 content_type:
   - "Theory"
 status: "draft"
-last_reviewed: "2026-11-14"
+last_updated: "2026-11-14"
 ---
 
 # AI vs. Machine Learning vs. Deep Learning

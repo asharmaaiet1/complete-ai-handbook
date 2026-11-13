@@ -1,64 +1,57 @@
 # Project Roadmap
 
-This roadmap describes intended work. A topic is not complete until its content, examples and references have been reviewed.
+This roadmap describes planned work, not delivered functionality. The current release target is an **Initial Public Preview** containing five introductory AI fundamentals lessons and a documentation site. No completion date is promised.
 
-## Release 0.1 — Repository foundation
+## Initial Public Preview — current scope
 
-- [x] Initial repository structure
-- [x] Project README and learning entry point
-- [x] Contribution and community standards
-- [x] Reusable tutorial template
-- [x] Initial five AI fundamentals drafts
-- [ ] License text and attribution review
-- [ ] Documentation build verified in CI
-- [ ] Initial public repository configured
+- [x] Repository structure and project documentation
+- [x] Five AI fundamentals lesson drafts
+- [x] MkDocs documentation site and learning paths
+- [x] Contribution, security, and community guidance
+- [ ] Check that third-party sources and included material are credited
+- [ ] Confirm GitHub governance and private security reporting settings
+- [ ] Run and record all release checks against the exact release commit
 
-## Release 1.0 — Core developer foundations
+The checked items describe files present in the repository. They do not imply that all lesson drafts have passed expert review.
 
-Target scope:
+## Future work — not included in this preview
 
-- AI fundamentals
+### Foundations and classical ML
+
 - Mathematics for AI
 - Python for AI
-- Data preparation
-- Classical machine learning
+- Data engineering and preparation
+- Classical machine learning and evaluation
 - Introductory deep learning
-- Three reproducible projects
-- Searchable documentation website
-- Automated documentation and code checks
 
-## Release 1.x — Modern AI engineering
+### Modern AI engineering
 
 - NLP and computer vision
-- Generative AI
-- Transformer and LLM internals
+- Generative models, transformers, and LLMs
 - Prompt and context engineering
-- Embeddings and vector search
-- Retrieval-augmented generation
-- Fine-tuning
-- AI agents and tool use
+- Embeddings, vector search, and RAG
+- Fine-tuning and model training
+- Agents and controlled tool use
 
-## Release 2.x — Production AI systems
+### Production systems
 
-- AI application engineering
+- AI application engineering examples in Python and TypeScript
 - MLOps and LLMOps
-- AI security and governance
-- Evaluation and observability
-- AI system design
-- Production-grade case studies
-- Specialization and interview paths
+- Security, governance, and evaluation
+- System design and operational case studies
+- Projects, research explanations, interview preparation, and assessments
 
-## Quality gates
+## Content review gate
 
-A major tutorial should not be marked reviewed until:
+Before a lesson is described as reviewed:
 
-1. Technical claims have credible references.
-2. Code has been run or clearly marked as pseudocode.
-3. Dependencies and tested versions are documented.
-4. Diagrams match the explanation.
-5. Limitations and failure modes are discussed.
-6. A reviewer has checked clarity and correctness.
+1. Check factual claims against credible primary or authoritative references and link important claims near the text.
+2. Mark illustrative examples, assumptions, and unsettled terminology clearly.
+3. Run code and state tested versions, or label it as pseudocode.
+4. Check diagrams against the explanation.
+5. Explain relevant limitations, failure modes, privacy, and security concerns.
+6. Record the review date only after a substantive review; keep draft status until then.
 
-## Planning assumptions
+## Planning notes
 
-Dates are estimates, not guarantees. Scope may change as the project receives technical review and community feedback.
+Curriculum ordering may change. The project should not describe future topics as available lessons until their content is present and reviewed.

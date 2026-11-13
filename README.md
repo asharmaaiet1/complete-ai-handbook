@@ -4,112 +4,57 @@
 
 **Understand AI. Build AI. Engineer AI.**
 
-A comprehensive, developer-focused, open-source learning resource covering Artificial Intelligence, Machine Learning, Deep Learning, Generative AI, Large Language Models, RAG, AI Agents and Production AI Engineering.
+A public personal learning project for software developers learning artificial intelligence, machine learning, and AI application engineering.
 
-The goal is to help software developers understand how AI works internally and learn how to build useful, reliable AI-powered applications.
+> **Release status: Initial Public Preview.** This preview provides five beginner-level AI fundamentals lessons and a small documentation site. The remaining curriculum, runnable Python and TypeScript examples, and production engineering material are planned; they are not included as completed content.
 
-> **Project status:** Early development. The first release is being built incrementally. Content marked as planned is not yet complete or reviewed.
+## Available lessons
 
-## Why this handbook?
+The canonical lesson sources are in [`docs/start-here/`](docs/start-here/README.md), which MkDocs publishes as the learning site.
 
-Many tutorials show how to call a model API or use a framework. This handbook aims to go further:
+- [What Is Artificial Intelligence?](docs/start-here/what-is-ai.md)
+- [AI vs. Machine Learning vs. Deep Learning](docs/start-here/ai-vs-ml-vs-dl.md)
+- [A Short History of Artificial Intelligence](docs/start-here/history-of-ai.md)
+- [Major Approaches and Types of AI](docs/start-here/types-of-ai.md)
+- [AI Applications in the Real World](docs/start-here/ai-applications.md)
 
-- Explain what a technology is and why it exists.
-- Explain how it works internally.
-- Introduce the mathematics and algorithms behind it.
-- Implement important ideas from scratch where practical.
-- Show implementations with established libraries and frameworks.
-- Build realistic applications.
-- Explain testing, evaluation, security, deployment and operations.
+All five lessons are drafts for this preview. They are introductory reading, not a substitute for technical review or domain-specific advice.
 
-**Theory + Implementation + Production Engineering**
+## Planned curriculum
 
-## Who is it for?
+Mathematics, Python for AI, data engineering, machine learning, deep learning, NLP, computer vision, generative AI, LLMs, retrieval, agents, AI application engineering, MLOps, security, projects, and assessments are planned areas. Their directory pages are scope notes, not completed tutorials. See [ROADMAP.md](ROADMAP.md) for release intent.
 
-- Software developers entering AI engineering.
-- Frontend and backend engineers building AI applications.
-- Developers learning ML, deep learning and LLMs.
-- Engineers preparing for AI/ML engineering roles.
-- Technical professionals interested in AI architecture.
+## Learning approach
 
-Basic programming knowledge is helpful. Previous AI experience is not required. Python is the primary language for model and data work; TypeScript is a first-class option for application engineering.
+The handbook aims to pair theoretical foundations with practical implementation. Python is intended for mathematics, data science, and machine learning; TypeScript is a first-class language for AI application engineering. The current preview is documentation-only and does not yet contain executable examples.
 
-## Start learning
+## Build the documentation site
 
-1. [Start here](00-start-here/README.md)
-2. [Learning paths](docs/learning-paths.md)
-3. [Project roadmap](ROADMAP.md)
-4. [How to contribute](CONTRIBUTING.md)
+Use Python 3.12 and install the pinned documentation dependencies:
 
-## Learning domains
+```bash
+python3.12 -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+python -m pip install -r requirements-docs.txt
+mkdocs serve
+```
 
-| # | Domain | Status |
-|---|---|---|
-| 00 | AI fundamentals | In progress |
-| 01 | Mathematics for AI | Planned |
-| 02 | Python for AI | Planned |
-| 03 | Data engineering | Planned |
-| 04 | Machine learning | Planned |
-| 05 | Deep learning | Planned |
-| 06 | Natural language processing | Planned |
-| 07 | Computer vision | Planned |
-| 08 | Generative AI | Planned |
-| 09 | Large language models | Planned |
-| 10 | Prompt and context engineering | Planned |
-| 11 | Embeddings and vector search | Planned |
-| 12 | Retrieval-augmented generation | Planned |
-| 13 | AI agents | Planned |
-| 14 | Fine-tuning and model training | Planned |
-| 15 | AI application engineering | Planned |
-| 16 | MLOps and LLMOps | Planned |
-| 17 | AI security and governance | Planned |
-| 18 | AI system design | Planned |
-| 19 | Specialization paths | Planned |
-| 20 | Practical projects | Planned |
-| 21 | Research paper explanations | Planned |
-| 22 | Interview preparation | Planned |
-| 23 | Exercises and assessments | Planned |
+On Windows, create the environment with `py -3.12 -m venv .venv`.
 
-## Learning principles
-
-1. Concept before implementation.
-2. Understand before memorizing.
-3. Explain mathematical intuition before relying on libraries.
-4. Build simplified versions before depending on frameworks.
-5. Evaluate before trusting model outputs.
-6. Secure before deploying.
-7. Measure before optimizing.
-
-## Technology choices
-
-| Area | Technologies |
-|---|---|
-| Programming | Python, JavaScript, TypeScript |
-| Machine learning | Scikit-learn |
-| Deep learning | PyTorch |
-| Data | NumPy, Pandas |
-| NLP and LLMs | Hugging Face Transformers |
-| Backend | FastAPI, Node.js |
-| Frontend | React, Next.js |
-| Retrieval | FAISS, Qdrant, pgvector |
-| Infrastructure | Docker, Kubernetes |
-| Documentation | Markdown, MkDocs Material |
-| Diagrams | Mermaid, draw.io |
-
-Tools are selected according to the learning objective. Tutorials must state tested versions and distinguish stable concepts from fast-changing APIs.
+For a release check, run `mkdocs build --strict`.
 
 ## Contributing
 
-Contributions are welcome: tutorials, corrections, code, diagrams, projects, exercises and research-paper explanations. Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting substantial work.
+The repository is public to read and fork. Contributions require an approved proposal before implementation intended for submission. Only explicitly approved collaborators should open pull requests. Read [CONTRIBUTING.md](CONTRIBUTING.md). Repository settings must enforce the stated policy; the files alone cannot do so.
 
-## Licensing
+## Copyright and reuse
 
-- Original source code: Apache License 2.0 (`LICENSE`).
-- Original educational documentation: CC BY-SA 4.0 (`LICENSE-DOCS`).
-- Third-party content remains under its own license and must be attributed.
+This is a personal project maintained by `@asharmaaiet1`. You are welcome to read it on GitHub. Please ask before copying, reposting, redistributing, or reusing the project's original code or lessons. See [`LICENSE`](LICENSE) and [`LICENSE-DOCS`](LICENSE-DOCS) for the short notices.
 
-## Project status and scope
+Third-party sources and material remain with their respective authors. The project aims to credit the sources it uses.
 
-This is an educational project under active development, not a claim that every listed topic is already complete. See [ROADMAP.md](ROADMAP.md) for planned milestones and [CHANGELOG.md](CHANGELOG.md) for shipped changes.
+GitHub allows people to view and fork public repositories under its platform terms. A copyright notice does not turn off GitHub's fork feature. Making the repository private can stop new public access, but existing forks and local copies remain. See [GitHub's explanation of public repository licensing and forks](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
 
-**Understand AI. Build AI. Engineer AI.**
+## Project status
+
+This is an early preview, not a completed course or a claim that every listed topic is available. Check each lesson's draft status and references. See [CHANGELOG.md](CHANGELOG.md) for project history and [CONTRIBUTING.md](CONTRIBUTING.md) for the approval-first contribution process.

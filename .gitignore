@@ -8,7 +8,14 @@ venv/
 .ipynb_checkpoints/
 .pytest_cache/
 .ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
 site/
 dist/
 build/
 .DS_Store
+release-package/
+/complete-ai-handbook-initial-preview-replacements.zip

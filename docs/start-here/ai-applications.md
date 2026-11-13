@@ -9,7 +9,7 @@ content_type:
   - "Theory"
   - "Exercise"
 status: "draft"
-last_reviewed: "2026-11-14"
+last_updated: "2026-11-14"
 ---
 
 # AI Applications in the Real World
@@ -53,7 +53,7 @@ Sometimes the best solution is ordinary software rather than AI.
 | Customer support | Retrieve policy answers | Search and RAG | Correct source retrieval |
 | Software engineering | Assist with code explanation | LLM plus tools | Secure code execution and review |
 
-These are illustrative patterns. A real deployment needs domain-specific evidence and validation.
+These are illustrative patterns, not claims about validated deployments or measured outcomes. A real deployment needs domain-specific evidence and validation. The [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) offers a risk-management framework; it does not replace domain-specific requirements.
 
 ## 3. Example: Customer support knowledge assistant
 

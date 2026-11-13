@@ -8,7 +8,7 @@ languages: []
 content_type:
   - "Theory"
 status: "draft"
-last_reviewed: "2026-11-14"
+last_updated: "2026-11-14"
 ---
 
 # What Is Artificial Intelligence?
@@ -24,7 +24,7 @@ By the end of this lesson, you should be able to:
 
 ## 1. A practical definition
 
-Artificial intelligence (AI) is a broad field of computer science concerned with building systems that perform tasks commonly associated with aspects of intelligence. Examples include recognizing patterns, understanding or generating language, making predictions, planning actions and interpreting images.
+Artificial intelligence (AI) is a broad field of computer science concerned with building systems that perform tasks commonly associated with aspects of intelligence. This is a practical teaching definition; the [Stanford Encyclopedia of Philosophy overview of AI](https://plato.stanford.edu/entries/artificial-intelligence/) discusses the field's broader history and definitions. Examples include recognizing patterns, understanding or generating language, making predictions, planning actions and interpreting images.
 
 There is no single implementation called "AI." The field includes many different approaches, from explicit rules written by people to statistical models learned from data.
 
@@ -132,5 +132,5 @@ AI is an umbrella field covering multiple approaches to building systems that pe
 ## 10. Further reading
 
 - [Stanford Encyclopedia of Philosophy: Artificial Intelligence](https://plato.stanford.edu/entries/artificial-intelligence/)
-- [NIST: Artificial Intelligence](https://www.nist.gov/artificial-intelligence)
+- [NIST CSRC: AI glossary entry](https://csrc.nist.gov/glossary/term/AI)
 - [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
