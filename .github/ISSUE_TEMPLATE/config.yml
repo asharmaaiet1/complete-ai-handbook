@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Learning questions
+    url: https://github.com/asharmaaiet1/complete-ai-handbook/discussions
+    about: Ask learning questions in GitHub Discussions once enabled.

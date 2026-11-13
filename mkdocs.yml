@@ -1,0 +1,59 @@
+site_name: Complete AI Handbook
+site_description: A comprehensive, developer-focused guide to AI, machine learning, deep learning and AI engineering.
+repo_url: https://github.com/asharmaaiet1/complete-ai-handbook
+edit_uri: edit/main/
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - https://unpkg.com/mermaid@11/dist/mermaid.min.js
+  - javascripts/mermaid.js
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Start Here:
+      - Overview: start-here/README.md
+      - What is AI?: start-here/what-is-ai.md
+      - AI vs ML vs DL: start-here/ai-vs-ml-vs-dl.md
+      - History of AI: start-here/history-of-ai.md
+      - Types of AI: start-here/types-of-ai.md
+      - AI Applications: start-here/ai-applications.md
+  - Learning Paths: learning-paths.md
