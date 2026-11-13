@@ -1,0 +1,107 @@
+name: Contribution Request
+description: Request permission to contribute to the Complete AI Handbook.
+title: "[Contribution Request]: "
+labels:
+  - contribution-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in contributing to **Complete AI Handbook**!
+
+        **Please submit this request before starting work or opening a pull request.**
+        The project owner will review your proposal. If it is approved, you will receive
+        instructions on how to proceed. Submitting this request does not automatically
+        grant contribution access.
+
+  - type: input
+    id: github-username
+    attributes:
+      label: GitHub username
+      description: Enter your GitHub username.
+      placeholder: your-github-username
+    validations:
+      required: true
+
+  - type: dropdown
+    id: contribution-area
+    attributes:
+      label: What would you like to contribute?
+      description: Select the area that best matches your proposal.
+      multiple: true
+      options:
+        - AI fundamentals
+        - Mathematics for AI
+        - Python for AI
+        - Machine learning
+        - Deep learning
+        - Generative AI and LLMs
+        - AI application engineering
+        - AI agents
+        - MLOps and deployment
+        - Tutorials and documentation
+        - Code examples or notebooks
+        - Tests, tooling, or infrastructure
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Contribution proposal
+      description: Explain what you want to add, improve, or fix. Be as specific as possible.
+      placeholder: |
+        I would like to contribute a tutorial on...
+        The problem or learning gap it addresses is...
+    validations:
+      required: true
+      min-length: 50
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Proposed scope and approach
+      description: List the sections, examples, code, tests, or documentation you expect to provide.
+      placeholder: |
+        - Explain the core concepts
+        - Add a worked example
+        - Include runnable Python code
+        - Add exercises and references
+    validations:
+      required: true
+
+  - type: textarea
+    id: relevant-experience
+    attributes:
+      label: Relevant experience or examples
+      description: Share relevant experience, portfolio links, or previous contributions. You can write "New contributor" if this is your first contribution.
+      placeholder: Links or a short description (optional).
+    validations:
+      required: false
+
+  - type: dropdown
+    id: availability
+    attributes:
+      label: Estimated availability
+      description: How much time could you realistically spend on this contribution?
+      options:
+        - A few hours
+        - 1–2 days
+        - About a week
+        - More than a week
+        - Not sure yet
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I understand that I must wait for explicit approval before starting work intended for submission or opening a pull request.
+          required: true
+        - label: I have read the repository's CONTRIBUTING.md and Code of Conduct.
+          required: true
+        - label: I understand that submitting this request does not guarantee approval.
+          required: true
