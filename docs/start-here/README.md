@@ -1,6 +1,6 @@
 # Start Here
 
-This preview is for software developers who want a clear first pass through AI fundamentals. It contains five beginner-level draft lessons. Mathematics, Python, machine learning, and the later engineering subjects are planned rather than included here.
+This preview is for software developers who want a clear first pass through AI fundamentals. It contains five published beginner-level lessons. Mathematics, Python, machine learning, and the later engineering subjects are planned rather than included here.
 
 ## Available lessons
 
@@ -16,4 +16,4 @@ Start with the definition, compare AI/ML/deep learning, then read the historical
 
 ## Preview limitations
 
-These lessons are marked as drafts. They introduce concepts and include questions or exercises, but they do not yet provide runnable code, complete solutions, or expert review. Each lesson lists further reading; treat that list as a starting point and consult the linked source directly.
+These lessons introduce concepts and include questions or exercises, but they do not yet provide runnable code, complete solutions, or expert review. Publication does not imply expert review. Each lesson lists further reading; treat that list as a starting point and consult the linked source directly.

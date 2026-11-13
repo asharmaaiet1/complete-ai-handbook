@@ -10,4 +10,4 @@ The canonical lesson sources for the Initial Public Preview are in [`docs/start-
 - [Major Approaches and Types of AI](../docs/start-here/types-of-ai.md)
 - [AI Applications in the Real World](../docs/start-here/ai-applications.md)
 
-All five lessons are introductory drafts. The remaining curriculum is planned; see [the roadmap](../ROADMAP.md).
+All five lessons are published introductory material. The remaining curriculum is planned; see [the roadmap](../ROADMAP.md).

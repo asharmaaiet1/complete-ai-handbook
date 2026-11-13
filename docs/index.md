@@ -2,7 +2,7 @@
 
 ## Understand AI. Build AI. Engineer AI.
 
-Welcome to the **Initial Public Preview** of Complete AI Handbook. This documentation site currently contains five draft lessons about AI fundamentals.
+Welcome to the **Initial Public Preview** of Complete AI Handbook. This documentation site currently contains five published lessons about AI fundamentals.
 
 Start with [AI fundamentals](start-here/README.md), follow the [learning paths](learning-paths.md), or read the [roadmap](https://github.com/asharmaaiet1/complete-ai-handbook/blob/main/ROADMAP.md) for planned work. Planned areas are not yet completed lessons.
 
