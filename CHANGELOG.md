@@ -8,6 +8,7 @@ Notable project changes are recorded here.
 - Preserved the five AI fundamentals lessons and added claim-level source links where useful.
 - Added pinned repository checks for links, navigation, YAML, and preview curriculum integrity.
 - Added a ten-part Mathematics for AI learning roadmap with original diagrams and curated references.
+- Added a pinned GitHub Actions workflow that deploys the strict MkDocs build to GitHub Pages.
 - Added a short personal copyright and reuse notice for code and lessons.
 - Documented required GitHub contribution and security settings.
 - Initial repository scaffold.
