@@ -25,6 +25,23 @@ Probability gives a consistent way to reason about uncertain outcomes. AI system
 - Expected value as a long-run average; variance and standard deviation as measures of spread.
 - Joint, marginal, and conditional distributions.
 
+## Learn the idea
+
+Probability is a number from 0 to 1 that describes how likely an event is under a model of uncertainty. Zero means impossible in that model; one means certain. If a fair coin is tossed, heads has probability `1/2`. After several tosses, the chance of a particular sequence can be found by multiplying probabilities when the tosses are independent.
+
+Conditional probability asks about an event after some information is known. The chance of rain given dark clouds can differ from the chance of rain on any day. Bayes' rule reverses the direction of a conditional question: it helps update the chance of a cause after observing evidence. The result depends on how common the cause was before the evidence.
+
+## Example in AI: describing an uncertain prediction
+
+Suppose an image model is choosing between two labels: cat and dog. It assigns probabilities `0.7` to cat and `0.3` to dog. These numbers describe the model's uncertainty under its learned probability estimates; they do not guarantee that the image is a cat or that the estimates are well calibrated. Probability is useful when an application must represent uncertainty, compare possible outcomes, or decide whether to ask a person for help. For a simple chance calculation, two fair coin tosses have outcomes `HH`, `HT`, `TH`, and `TT`; exactly one head occurs in 2 of 4 outcomes, so its probability is `1/2`.
+
+## Try it
+
+What is the probability of getting two heads in two fair tosses?
+
+??? success "Check your answer"
+    Only `HH` works, so the probability is `1/4`.
+
 ## AI Applications
 
 Classification models often produce scores that are interpreted or calibrated as probabilities. Bayesian reasoning describes how a prior belief and observed evidence combine. Sampling-based algorithms use random draws to estimate quantities that are difficult to calculate exactly. Probability distributions also describe latent variables and generated outputs.

@@ -28,6 +28,23 @@ Discrete mathematics studies countable objects and the rules connecting them. Gr
 - Sequences and recurrence relations at an intuitive level.
 - Big-O notation as a description of how resource use grows with input size.
 
+## Learn the idea
+
+Discrete math deals with separate, countable choices, such as a set of labels or a collection of links. Logic gives rules for statements that can be true or false. Counting helps estimate how many possibilities a program may need to examine.
+
+A graph is a set of nodes and connections called edges. A road map can be modeled with places as nodes and roads as edges. If roads have different lengths, the edges can carry weights. A path is a sequence of connected edges. Searching a graph means visiting nodes according to a rule, such as exploring nearby nodes before farther ones.
+
+## Example in AI: finding a route through connected places
+
+A route planner can represent locations as nodes and roads as edges. Suppose its small map has roads `A—B`, `A—C`, and `B—D`. From A, B and C are one road away; D can be reached in two roads through B. A graph search can find which places are reachable and, with suitable edge weights, compare routes. Graphs are useful whenever an AI task involves relationships or paths, such as a map, a network of linked pages, or steps between game states.
+
+## Try it
+
+In the example, how many roads are in the path from A to D?
+
+??? success "Check your answer"
+    Two: `A—B` and `B—D`.
+
 ## AI Applications
 
 Graphs represent roads, social networks, knowledge graphs, and dependencies between variables. Search algorithms explore graphs of possible states. Decision trees and computation graphs organize branching or connected operations. Discrete reasoning also underlies constraint solving and symbolic AI.

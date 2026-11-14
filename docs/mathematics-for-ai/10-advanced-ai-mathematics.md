@@ -30,6 +30,23 @@ This guide points to mathematical ideas that explain selected modern models. It 
 - Functional analysis and advanced optimization matter for some theory and research questions.
 - Information geometry and optimal transport appear in specialized methods; learn them when a particular model requires them.
 
+## Learn the idea
+
+This page is a map for later, not a gate to building AI applications. A tensor is an array with several dimensions. For example, a batch of color images can have dimensions for the number of images, height, width, and color channels. Keeping track of those dimensions helps ensure that operations combine the intended values.
+
+Many modern models also describe hidden or random quantities. A latent variable is a compact hidden description that helps a model explain observed data. A diffusion model gradually adds noise to training examples, then learns steps that can turn noise into a new sample. These are broad pictures of the ideas; real methods use carefully defined probability distributions and training objectives.
+
+## Example in AI: understanding image batches
+
+An image model commonly processes several images together. A batch of 8 color images, each 32 pixels high and 32 pixels wide, with 3 color values per pixel, can have shape `(8, 32, 32, 3)`. The first number counts images; the next two describe height and width; the last counts color channels. Tensor shapes are useful when preparing data and debugging a model: if code expects one image but receives a batch, the extra first dimension helps explain the mismatch. Other model types use different dimensions, but the same habit of reading each dimension carefully applies.
+
+## Try it
+
+In a tensor with shape `(5, 10, 2)`, how many values are in one item along the first dimension?
+
+??? success "Check your answer"
+    One item has shape `(10, 2)`, so it contains `10 × 2 = 20` values.
+
 ## AI Applications
 
 These topics help explain variational autoencoders, probabilistic generative models, diffusion models, training dynamics, and the behavior of deep transformations. Most practitioners can use these systems before studying their full derivations; the mathematics is most useful when reading research, designing new methods, or debugging model behavior at a deeper level.
