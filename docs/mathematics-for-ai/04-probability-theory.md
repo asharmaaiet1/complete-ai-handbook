@@ -37,4 +37,4 @@ Classification models often produce scores that are interpreted or calibrated as
 
 ---
 
-[← Previous: Calculus](03-calculus.md){ .md-button } [Next: Statistics →](05-statistics.md){ .md-button .md-button--primary }
+[← Previous: Calculus](03-calculus.md) · [Next: Statistics →](05-statistics.md)

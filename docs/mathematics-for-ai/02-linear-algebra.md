@@ -49,4 +49,4 @@ The diagram shows the shape relationship for one matrix-vector multiplication: a
 
 ---
 
-[← Previous: Mathematical Foundations](01-mathematical-foundations.md){ .md-button } [Next: Calculus →](03-calculus.md){ .md-button .md-button--primary }
+[← Previous: Mathematical Foundations](01-mathematical-foundations.md) · [Next: Calculus →](03-calculus.md)

@@ -41,4 +41,4 @@ Statistics informs experiment design, dataset summaries, model evaluation, and u
 
 ---
 
-[← Previous: Probability Theory](04-probability-theory.md){ .md-button } [Next: Optimization Mathematics →](06-optimization.md){ .md-button .md-button--primary }
+[← Previous: Probability Theory](04-probability-theory.md) · [Next: Optimization Mathematics →](06-optimization.md)

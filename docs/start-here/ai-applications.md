@@ -141,4 +141,4 @@ AI can support many industries, but successful applications begin with a clearly
 
 ---
 
-[← Previous: Major Approaches and Types of AI](types-of-ai.md){ .md-button } [Next module: Mathematics for AI →](../mathematics-for-ai/index.md){ .md-button .md-button--primary }
+[← Previous: Major Approaches and Types of AI](types-of-ai.md) · [Next module: Mathematics for AI →](../mathematics-for-ai/index.md)

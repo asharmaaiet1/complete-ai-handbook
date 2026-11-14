@@ -41,4 +41,4 @@ Numerical issues can turn mathematically valid formulas into unreliable code. Th
 
 ---
 
-[← Previous: Discrete Mathematics and Graph Theory](08-discrete-mathematics.md){ .md-button } [Next: Advanced AI Mathematics →](10-advanced-ai-mathematics.md){ .md-button .md-button--primary }
+[← Previous: Discrete Mathematics and Graph Theory](08-discrete-mathematics.md) · [Next: Advanced AI Mathematics →](10-advanced-ai-mathematics.md)

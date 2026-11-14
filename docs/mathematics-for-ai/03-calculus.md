@@ -42,4 +42,4 @@ Training often changes parameters to reduce a loss. Derivatives estimate how a s
 
 ---
 
-[← Previous: Linear Algebra](02-linear-algebra.md){ .md-button } [Next: Probability Theory →](04-probability-theory.md){ .md-button .md-button--primary }
+[← Previous: Linear Algebra](02-linear-algebra.md) · [Next: Probability Theory →](04-probability-theory.md)

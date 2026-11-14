@@ -40,4 +40,4 @@ Graphs represent roads, social networks, knowledge graphs, and dependencies betw
 
 ---
 
-[← Previous: Information Theory](07-information-theory.md){ .md-button } [Next: Numerical Methods →](09-numerical-methods.md){ .md-button .md-button--primary }
+[← Previous: Information Theory](07-information-theory.md) · [Next: Numerical Methods →](09-numerical-methods.md)

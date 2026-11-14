@@ -43,4 +43,4 @@ These topics help explain variational autoencoders, probabilistic generative mod
 
 ---
 
-[← Previous: Numerical Methods and Computational Mathematics](09-numerical-methods.md){ .md-button } <span class="md-button" aria-disabled="true">Next module: Python for AI — Coming soon</span>
+[← Previous: Numerical Methods and Computational Mathematics](09-numerical-methods.md) · **Next module: Python for AI — Coming soon**

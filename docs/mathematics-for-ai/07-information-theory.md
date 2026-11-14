@@ -35,4 +35,4 @@ Cross-entropy is a common classification and language-model training loss. KL di
 
 ---
 
-[← Previous: Optimization Mathematics](06-optimization.md){ .md-button } [Next: Discrete Mathematics and Graph Theory →](08-discrete-mathematics.md){ .md-button .md-button--primary }
+[← Previous: Optimization Mathematics](06-optimization.md) · [Next: Discrete Mathematics and Graph Theory →](08-discrete-mathematics.md)
