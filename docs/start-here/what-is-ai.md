@@ -134,3 +134,7 @@ AI is an umbrella field covering multiple approaches to building systems that pe
 - [Stanford Encyclopedia of Philosophy: Artificial Intelligence](https://plato.stanford.edu/entries/artificial-intelligence/)
 - [NIST CSRC: AI glossary entry](https://csrc.nist.gov/glossary/term/AI)
 - [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
+
+---
+
+[Next lesson: AI vs. Machine Learning vs. Deep Learning →](ai-vs-ml-vs-dl.md)

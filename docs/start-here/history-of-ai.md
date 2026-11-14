@@ -124,3 +124,7 @@ This is a selective teaching timeline, not an exhaustive history. Important work
 - [Dartmouth AI Project proposal](http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf)
 - [ImageNet Classification with Deep Convolutional Neural Networks](https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html)
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+
+---
+
+[← Previous: AI vs. Machine Learning vs. Deep Learning](ai-vs-ml-vs-dl.md) · [Next: Major Approaches and Types of AI →](types-of-ai.md)

@@ -1,8 +1,8 @@
-# Start Here
+# AI Fundamentals
 
-This preview is for software developers who want a clear first pass through AI fundamentals. It contains five published beginner-level lessons. Mathematics, Python, machine learning, and the later engineering subjects are planned rather than included here.
+This section is the entry point for software developers who want a clear first pass through AI fundamentals. It contains five published beginner-level lessons, moving from a definition of AI through its approaches and applications. Mathematics, Python, machine learning, and later engineering subjects are planned for future sections.
 
-## Available lessons
+## Learning sequence
 
 1. [What Is Artificial Intelligence?](what-is-ai.md)
 2. [AI vs. Machine Learning vs. Deep Learning](ai-vs-ml-vs-dl.md)
@@ -10,9 +10,11 @@ This preview is for software developers who want a clear first pass through AI f
 4. [Major Approaches and Types of AI](types-of-ai.md)
 5. [AI Applications in the Real World](ai-applications.md)
 
-## Suggested order
+## A brief history of AI
 
-Start with the definition, compare AI/ML/deep learning, then read the historical and approach-based lessons. Finish by applying the ideas to a use case. Prior knowledge of AI is not required; basic programming and algebra are helpful but not required for these conceptual lessons.
+Ideas about machine reasoning grew from earlier work in logic and computation. Alan Turing's 1950 essay helped frame the question of machine intelligence, and the 1956 Dartmouth research project is commonly associated with AI becoming a named research field. Since then, the field has moved through symbolic reasoning, expert systems, statistical machine learning, deep learning, and today's generative and multimodal systems. The progress has not been a straight line: each wave built on earlier ideas while running into limits in data, computing, or the methods of the time. Read [A Short History of Artificial Intelligence](history-of-ai.md) for the full chapter and timeline.
+
+Prior knowledge of AI is not required. Basic programming and algebra may help, but are not required for these conceptual lessons.
 
 ## Preview limitations
 

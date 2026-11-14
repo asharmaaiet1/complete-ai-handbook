@@ -138,3 +138,7 @@ AI can support many industries, but successful applications begin with a clearly
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 - [NIST Generative AI Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)
 - [Google People + AI Guidebook](https://pair.withgoogle.com/guidebook/)
+
+---
+
+[← Previous: Major Approaches and Types of AI](types-of-ai.md)
