@@ -1,5 +1,13 @@
 # Optimization Mathematics
 
+## Learning objectives
+
+By the end of this guide, you should be able to:
+
+- Explain how a loss measures a model's error on examples.
+- Describe how gradient descent uses a slope and learning rate to update parameters.
+- Distinguish lower training loss from better performance on new data.
+
 **Difficulty:** Intermediate  
 **Prerequisites:** Linear algebra and basic derivatives; probability is useful for stochastic methods.
 

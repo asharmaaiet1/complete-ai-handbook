@@ -1,5 +1,13 @@
 # Discrete Mathematics and Graph Theory
 
+## Learning objectives
+
+By the end of this guide, you should be able to:
+
+- Describe sets, logic, and counting as tools for reasoning about distinct choices.
+- Represent connected objects as nodes and edges in a graph.
+- Explain how graph search can find reachable places or states.
+
 **Difficulty:** Beginner to intermediate  
 **Prerequisites:** Mathematical foundations; no calculus required for the introductory topics.
 

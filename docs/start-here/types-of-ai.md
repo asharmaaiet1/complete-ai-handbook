@@ -1,17 +1,3 @@
----
-title: "Major Approaches and Types of AI"
-domain: "AI Fundamentals"
-level: "Beginner"
-estimated_time: "35 minutes"
-prerequisites:
-  - "What Is Artificial Intelligence?"
-  - "AI vs. Machine Learning vs. Deep Learning"
-content_type:
-  - "Theory"
-status: "published"
-last_updated: "2026-11-14"
----
-
 # Major Approaches and Types of AI
 
 ## Learning objectives

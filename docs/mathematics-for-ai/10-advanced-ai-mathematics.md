@@ -1,5 +1,13 @@
 # Advanced Mathematics for Deep Learning and Generative AI
 
+## Learning objectives
+
+By the end of this guide, you should be able to:
+
+- Explain what tensor dimensions describe in a model input.
+- Summarize the roles of latent variables and noise removal in generative models.
+- Identify which advanced topics are optional and when deeper study may help.
+
 **Difficulty:** Advanced and optional  
 **Prerequisites:** Linear algebra, multivariable calculus, probability, statistics, and optimization.
 

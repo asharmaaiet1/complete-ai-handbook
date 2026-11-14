@@ -1,5 +1,13 @@
 # Statistics
 
+## Learning objectives
+
+By the end of this guide, you should be able to:
+
+- Summarize a small set of values using its mean and median.
+- Explain why a sample may not represent a wider population.
+- Describe how separate training and test data help evaluate a model.
+
 **Difficulty:** Beginner to intermediate  
 **Prerequisites:** Mathematical foundations and introductory probability.
 

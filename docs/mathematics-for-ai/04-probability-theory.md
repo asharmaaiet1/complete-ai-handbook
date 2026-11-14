@@ -1,5 +1,13 @@
 # Probability Theory
 
+## Learning objectives
+
+By the end of this guide, you should be able to:
+
+- Describe probability as a way to represent uncertainty.
+- Calculate simple probabilities for equally likely outcomes.
+- Explain how conditional probability changes a prediction when new evidence is known.
+
 **Difficulty:** Beginner to intermediate  
 **Prerequisites:** Mathematical foundations; fractions and basic algebra.
 

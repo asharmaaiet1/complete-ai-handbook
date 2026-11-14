@@ -1,5 +1,13 @@
 # Mathematical Foundations
 
+## Learning objectives
+
+By the end of this guide, you should be able to:
+
+- Read simple equations and identify what each variable represents.
+- Use functions, powers, and logarithms in basic calculations.
+- Explain how these ideas appear in model formulas and loss calculations.
+
 **Difficulty:** Beginner  
 **Prerequisites:** Basic arithmetic.  
 **Role in the path:** Refresh these ideas before or alongside the core AI subjects.

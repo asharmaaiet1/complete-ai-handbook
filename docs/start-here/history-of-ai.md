@@ -1,16 +1,3 @@
----
-title: "A Short History of Artificial Intelligence"
-domain: "AI Fundamentals"
-level: "Beginner"
-estimated_time: "35 minutes"
-prerequisites:
-  - "What Is Artificial Intelligence?"
-content_type:
-  - "Theory"
-status: "published"
-last_updated: "2026-11-14"
----
-
 # A Short History of Artificial Intelligence
 
 ## Learning objectives
