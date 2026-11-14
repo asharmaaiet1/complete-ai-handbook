@@ -29,6 +29,23 @@ Statistics helps us learn from samples and describe how uncertain our conclusion
 - Train, validation, and test sets as a way to separate model fitting from evaluation.
 - Data leakage, class imbalance, and uncertainty in reported metrics.
 
+## Learn the idea
+
+Statistics helps us describe the data we have and judge how much it tells us about data we have not seen. A mean uses every value, so an unusually large value can pull it upward. A median is the middle value after sorting and is less affected by extreme values.
+
+A sample is only part of a larger group, so a result can vary depending on which examples were selected. A larger sample often gives a steadier estimate, but it cannot fix a biased collection process. In machine learning, keeping test examples separate from training helps estimate performance on new cases. If information from the test set influences training, the estimate is no longer independent.
+
+## Example in AI: checking model errors
+
+After testing a model, suppose its prediction errors on four examples are `[2, 4, 4, 10]` units. The mean error is `(2 + 4 + 4 + 10) / 4 = 5`, while the median is 4. The one large error pulls the mean upward more than the median. Both summaries help: the mean reflects the total average impact, while the median describes a more typical case. Statistics is useful when comparing models because one score alone can hide unusual failures or variation across examples.
+
+## Try it
+
+What is the median of `[1, 3, 8]`?
+
+??? success "Check your answer"
+    The values are already sorted; the middle value is 3.
+
 ## AI Applications
 
 Statistics informs experiment design, dataset summaries, model evaluation, and uncertainty reporting. It helps distinguish a real improvement from noise and exposes sampling or measurement problems. Statistical reasoning is essential when deciding whether a model result is likely to hold beyond the examples used to develop it.

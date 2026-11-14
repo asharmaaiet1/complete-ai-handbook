@@ -30,6 +30,23 @@ This guide covers the small set of school-level ideas that appear repeatedly in 
 - Subscripts for identifying individual data points or model parameters.
 - The difference between a constant, a measured value, and a value a model learns.
 
+## Learn the idea
+
+Math notation is a shorter way to describe a calculation. A variable is a name for a value that may change. A function is a repeatable rule: give it an input, and it returns an output. This is also a useful way to think about a model: it receives data and produces a result.
+
+An equation says that two expressions have the same value. You can rearrange it as long as you do the same operation to both sides. A logarithm asks a reverse question to a power: `log₂(8) = 3` because `2³ = 8`. Logs are useful when values grow quickly or when multiplying many probabilities would produce tiny numbers.
+
+## Example in AI: turning inputs into a score
+
+A simple prediction system might combine two measurements into a score. Imagine a practice tool uses `score = 2 × completed exercises + 1` as a made-up readiness score. A learner who completed 3 exercises gets `2 × 3 + 1 = 7`. If the tool shows a score of 11, rearranging the equation tells us that it corresponds to 5 exercises. This example shows why variables, functions, and rearranging equations help us read model formulas. Real systems learn their rules from data rather than using this hand-written rule.
+
+## Try it
+
+For `score = 3 × examples + 2`, what score do 4 examples produce?
+
+??? success "Check your answer"
+    `3 × 4 + 2 = 14`.
+
 ## AI Applications
 
 Ratios help interpret class balance and accuracy. Functions describe how inputs map to predictions. Exponentials and logarithms appear in probabilities, log loss, and numerical routines. Summation notation often represents the total loss over a dataset. Being able to rearrange an equation makes it easier to understand what a model is computing.

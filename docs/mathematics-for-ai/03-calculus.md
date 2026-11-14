@@ -30,6 +30,23 @@ Calculus describes change and accumulation. For machine learning, the most usefu
 - Basic connection between differentiation and integration.
 - Probability density as a function whose area over a range gives probability.
 
+## Learn the idea
+
+A derivative describes how quickly a value changes near a chosen point. If a small change in a parameter causes a large change in the loss, the derivative has a large magnitude. A positive derivative means increasing the parameter raises the value locally; a negative one means it lowers it.
+
+For a function with many inputs, the gradient collects one derivative for each input. It points toward the direction of fastest increase. To reduce a loss, training usually moves a little in the opposite direction. The chain rule helps find how a change travels through several linked calculations, which is why it is central to training layered models.
+
+## Example in AI: deciding how to adjust a model
+
+During training, a model compares a prediction with the right answer and gets a loss. To see how a parameter affects that loss, use the simple example `L(w) = (w − 3)²`. Its derivative is `2(w − 3)`. At `w = 1`, the derivative is `−4`, which tells us that a small increase in `w` should reduce the loss nearby. With a step size of `0.1`, an update gives `w = 1 − 0.1 × (−4) = 1.4`; the loss falls from 4 to 2.56. Derivatives are useful here because they tell training which direction to try. This simple curve is only an illustration; real model losses can be more complex.
+
+## Try it
+
+For `L(w) = (w − 3)²`, what is the derivative at `w = 2`?
+
+??? success "Check your answer"
+    The derivative is `2(w − 3)`, so at 2 it is `−2`.
+
 ## AI Applications
 
 Training often changes parameters to reduce a loss. Derivatives estimate how a small parameter change affects that loss. The chain rule lets a deep network pass this information backward through its layers. Integration appears in continuous probability and some generative models; most beginners can postpone detailed integration techniques.
