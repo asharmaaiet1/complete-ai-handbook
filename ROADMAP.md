@@ -6,6 +6,7 @@ This roadmap describes planned work, not delivered functionality. The current re
 
 - [x] Repository structure and project documentation
 - [x] Five published AI fundamentals lessons
+- [x] Mathematics for AI reference roadmap
 - [x] MkDocs documentation site and learning paths
 - [x] Contribution, security, and community guidance
 - [ ] Check that third-party sources and included material are credited
@@ -18,7 +19,6 @@ The checked items describe files present in the repository. Publication means th
 
 ### Foundations and classical ML
 
-- Mathematics for AI
 - Python for AI
 - Data engineering and preparation
 - Classical machine learning and evaluation

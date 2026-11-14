@@ -70,6 +70,10 @@ Recap the central ideas and practical takeaways.
 
 Prefer primary research, official documentation, and reputable technical sources. Identify sources accurately, cite claims near the text, and distinguish established results from active research or opinion. Do not include unverified references.
 
+## 13. Chapter navigation
+
+At the bottom of each chapter page, link to the previous and next pages in the learning sequence. The first chapter has no previous link. If a following module is planned but its index is not available yet, show a visibly disabled, non-linked “Next module: [name] — Coming soon” placeholder on the last chapter. Connect available module boundaries in both directions: the previous module's final chapter links to this module's index, and this module's index links back to that final chapter.
+
 ## Review checklist
 
 - [ ] Claims and references checked

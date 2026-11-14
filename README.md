@@ -6,7 +6,7 @@
 
 A public personal learning project for software developers learning artificial intelligence, machine learning, and AI application engineering.
 
-> **Release status: Initial Public Preview.** This preview provides five beginner-level AI fundamentals lessons and a small documentation site. The remaining curriculum, runnable Python and TypeScript examples, and production engineering material are planned; they are not included as completed content.
+> **Release status: Initial Public Preview.** This preview provides five beginner-level AI fundamentals lessons, a reference-oriented Mathematics for AI roadmap, and a small documentation site. The remaining technical curriculum, runnable Python and TypeScript examples, and production engineering material are planned; they are not included as completed content.
 
 ## Available lessons
 
@@ -27,7 +27,7 @@ The table shows what is available now and what remains planned. A module marked 
 | Module | Focus | Status |
 | --- | --- | --- |
 | [00 · AI Fundamentals](docs/start-here/README.md) | AI fundamentals | **Published** · five lessons |
-| [01 · Mathematics for AI](01-mathematics-for-ai/README.md) | Linear algebra, calculus, probability, and statistics | Planned |
+| [01 · Mathematics for AI](docs/mathematics-for-ai/index.md) | A reference-oriented roadmap from algebra foundations to optional advanced AI mathematics | **Available** · learning roadmap |
 | [02 · Python for AI](02-python-for-ai/README.md) | Python programming and scientific tools | Planned |
 | [03 · Data Engineering](03-data-engineering/README.md) | Data collection, preparation, and pipelines | Planned |
 | [04 · Machine Learning](04-machine-learning/README.md) | Classical ML, training, and evaluation | Planned |
