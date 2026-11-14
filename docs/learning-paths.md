@@ -8,13 +8,19 @@ Read the five published lessons in order: [What is AI?](start-here/what-is-ai.md
 
 **Outcome:** explain introductory AI terms and outline considerations for an AI use case. This preview path does not include runnable code or a completed project.
 
+## Available learning resource
+
+### Mathematics for AI
+
+The [Mathematics for AI roadmap](mathematics-for-ai/index.md) organizes essential and optional topics, explains how they connect to AI, and points to resources for deeper study. It is a reference guide, not a complete mathematics course.
+
 ## Planned paths — content not yet available
 
 The following are learning goals for future releases. Their topic lists are not links to completed courses.
 
 ### Foundations for AI developers
 
-Planned: mathematics and Python foundations → data preparation → classical machine learning.
+Planned: Python foundations → data preparation → classical machine learning.
 
 **Intended milestone:** build and evaluate a prediction application.
 

@@ -56,4 +56,16 @@ nav:
       - History of AI: start-here/history-of-ai.md
       - Types of AI: start-here/types-of-ai.md
       - AI Applications: start-here/ai-applications.md
+  - Mathematics for AI:
+      - Overview: mathematics-for-ai/index.md
+      - Mathematical Foundations: mathematics-for-ai/01-mathematical-foundations.md
+      - Linear Algebra: mathematics-for-ai/02-linear-algebra.md
+      - Calculus: mathematics-for-ai/03-calculus.md
+      - Probability Theory: mathematics-for-ai/04-probability-theory.md
+      - Statistics: mathematics-for-ai/05-statistics.md
+      - Optimization Mathematics: mathematics-for-ai/06-optimization.md
+      - Information Theory: mathematics-for-ai/07-information-theory.md
+      - Discrete Mathematics and Graph Theory: mathematics-for-ai/08-discrete-mathematics.md
+      - Numerical Methods: mathematics-for-ai/09-numerical-methods.md
+      - Advanced AI Mathematics: mathematics-for-ai/10-advanced-ai-mathematics.md
   - Learning Paths: learning-paths.md
