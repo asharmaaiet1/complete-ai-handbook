@@ -53,4 +53,4 @@ You are learning mathematics to read, build, and debug AI systems—not to colle
 
 ---
 
-[← Previous module: AI Applications in the Real World](../start-here/ai-applications.md){ .md-button } [Next: Mathematical Foundations →](01-mathematical-foundations.md){ .md-button .md-button--primary }
+[← Previous module: AI Applications in the Real World](../start-here/ai-applications.md) · [Next: Mathematical Foundations →](01-mathematical-foundations.md)

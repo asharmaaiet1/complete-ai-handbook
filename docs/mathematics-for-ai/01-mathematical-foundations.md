@@ -42,4 +42,4 @@ Ratios help interpret class balance and accuracy. Functions describe how inputs 
 
 ---
 
-[← Previous: Mathematics for AI overview](index.md){ .md-button } [Next: Linear Algebra →](02-linear-algebra.md){ .md-button .md-button--primary }
+[← Previous: Mathematics for AI overview](index.md) · [Next: Linear Algebra →](02-linear-algebra.md)

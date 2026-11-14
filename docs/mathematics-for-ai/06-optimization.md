@@ -51,4 +51,4 @@ This loop is a simplified view of gradient-based training. Real systems add batc
 
 ---
 
-[← Previous: Statistics](05-statistics.md){ .md-button } [Next: Information Theory →](07-information-theory.md){ .md-button .md-button--primary }
+[← Previous: Statistics](05-statistics.md) · [Next: Information Theory →](07-information-theory.md)
