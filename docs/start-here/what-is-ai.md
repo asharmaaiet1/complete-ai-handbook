@@ -1,16 +1,3 @@
----
-title: "What Is Artificial Intelligence?"
-domain: "AI Fundamentals"
-level: "Beginner"
-estimated_time: "25 minutes"
-prerequisites: []
-languages: []
-content_type:
-  - "Theory"
-status: "published"
-last_updated: "2026-11-14"
----
-
 # What Is Artificial Intelligence?
 
 ## Learning objectives

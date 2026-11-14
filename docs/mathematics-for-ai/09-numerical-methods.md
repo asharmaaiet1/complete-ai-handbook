@@ -1,5 +1,13 @@
 # Numerical Methods and Computational Mathematics
 
+## Learning objectives
+
+By the end of this guide, you should be able to:
+
+- Explain why computers approximate many real numbers.
+- Recognize how rounding and overflow can affect AI calculations.
+- Describe the difference between a sensitive problem and an unstable calculation.
+
 **Difficulty:** Intermediate  
 **Prerequisites:** Mathematical foundations, linear algebra, and basic programming; calculus helps for numerical differentiation.
 

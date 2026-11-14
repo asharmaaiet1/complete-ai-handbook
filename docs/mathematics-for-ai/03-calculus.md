@@ -1,5 +1,13 @@
 # Calculus
 
+## Learning objectives
+
+By the end of this guide, you should be able to:
+
+- Explain a derivative as a measure of local change.
+- Describe what a gradient tells us about a function with several inputs.
+- Explain why derivatives help a model adjust its parameters during training.
+
 **Difficulty:** Intermediate  
 **Prerequisites:** Mathematical foundations, especially functions, graphs, and algebra.  
 **Useful starting point:** Learn derivatives and the chain rule first; integration can initially be studied for intuition.

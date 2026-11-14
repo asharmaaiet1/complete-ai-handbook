@@ -1,5 +1,13 @@
 # Linear Algebra
 
+## Learning objectives
+
+By the end of this guide, you should be able to:
+
+- Distinguish scalars, vectors, matrices, and tensors by their shapes.
+- Calculate a simple dot product and explain what it combines.
+- Describe how linear algebra represents data and model computations.
+
 **Difficulty:** Beginner to intermediate  
 **Prerequisites:** Mathematical foundations; comfort with coordinates and equations is helpful.
 

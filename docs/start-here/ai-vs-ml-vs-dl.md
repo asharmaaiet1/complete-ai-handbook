@@ -1,17 +1,3 @@
----
-title: "AI vs. Machine Learning vs. Deep Learning"
-domain: "AI Fundamentals"
-level: "Beginner"
-estimated_time: "30 minutes"
-prerequisites:
-  - "What Is Artificial Intelligence?"
-languages: []
-content_type:
-  - "Theory"
-status: "published"
-last_updated: "2026-11-14"
----
-
 # AI vs. Machine Learning vs. Deep Learning
 
 ## Learning objectives

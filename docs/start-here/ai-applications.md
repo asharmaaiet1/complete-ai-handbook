@@ -1,17 +1,3 @@
----
-title: "AI Applications in the Real World"
-domain: "AI Fundamentals"
-level: "Beginner"
-estimated_time: "35 minutes"
-prerequisites:
-  - "What Is Artificial Intelligence?"
-content_type:
-  - "Theory"
-  - "Exercise"
-status: "published"
-last_updated: "2026-11-14"
----
-
 # AI Applications in the Real World
 
 ## Learning objectives

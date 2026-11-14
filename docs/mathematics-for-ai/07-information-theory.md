@@ -1,5 +1,13 @@
 # Information Theory
 
+## Learning objectives
+
+By the end of this guide, you should be able to:
+
+- Explain entropy as average uncertainty in a probability distribution.
+- Describe how cross-entropy scores a prediction against the correct outcome.
+- Recognize why assigning very low probability to the correct answer receives a larger penalty.
+
 **Difficulty:** Intermediate  
 **Prerequisites:** Probability distributions, logarithms, and basic summation.
 

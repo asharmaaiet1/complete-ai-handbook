@@ -140,16 +140,19 @@ def test_contribution_request_form_has_expected_required_fields() -> None:
     assert fields["proposal"]["validations"]["min_length"] == 50
 
 
-def test_five_preview_lessons_are_present_and_published() -> None:
+def test_five_preview_lessons_are_present_and_published_without_front_matter() -> None:
     lessons_dir = ROOT / "docs" / "start-here"
+    config_path = ROOT / "mkdocs.yml"
+    config = _plain_yaml_node(yaml.compose(config_path.read_text(encoding="utf-8")))
+    assert isinstance(config, dict)
+    published_pages = set(_navigation_pages(config.get("nav", [])))
+
     for name in CANONICAL_LESSONS:
         path = lessons_dir / name
         content = path.read_text(encoding="utf-8")
-        assert content.startswith("---\n"), f"Missing YAML front matter: {path}"
-        front_matter = content.split("---\n", 2)[1]
-        metadata = yaml.safe_load(front_matter)
-        assert metadata["status"] == "published", f"Preview lesson is not marked published: {path}"
-        assert "last_updated" in metadata, f"Missing update date: {path}"
+        assert f"start-here/{name}" in published_pages, f"Preview lesson is missing from MkDocs navigation: {path}"
+        assert not content.startswith("---\n"), f"Unexpected YAML front matter: {path}"
+        assert "## Learning objectives" in content, f"Missing learning objectives: {path}"
         assert len(content) >= 1000, f"Lesson content appears incomplete: {path}"
 
 
