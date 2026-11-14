@@ -1,4 +1,4 @@
-# Start Here
+# AI Fundamentals
 
 The canonical lesson sources for the Initial Public Preview are in [`docs/start-here/`](../docs/start-here/README.md). The numbered curriculum directories are a planning index; they are not a second copy of the lesson text.
 

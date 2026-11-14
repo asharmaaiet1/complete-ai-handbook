@@ -29,10 +29,10 @@ This manifest records the preview remediation files and their repository-relativ
 | `ROADMAP.md` | Updated | Separates the current preview from future work and sets an explicit content review gate. |
 | `SECURITY.md` | Updated | Provides safe private reporting instructions and states that GitHub private vulnerability reporting must be enabled and monitored manually. |
 | `TUTORIAL_TEMPLATE.md` | Updated | Adds claim-level sourcing, tested setup, honest pseudocode labeling, and review metadata that distinguishes last update from completed review. |
-| `docs/index.md` | Updated | Labels the site as an initial preview and limits its claims to the five draft lessons. |
+| `docs/index.md` | Updated | Labels the site as an initial preview and limits its claims to the five published introductory lessons. |
 | `docs/learning-paths.md` | Updated | Shows the one available fundamentals path and explicitly labels all other learning paths as planned. |
 | `docs/javascripts/mermaid.js` | Replacement copy; content unchanged | Retains the existing strict Mermaid initialization script required by the MkDocs configuration. |
-| `docs/start-here/README.md` | Updated | Lists the five available lessons and explains the preview's scope and limitations. |
+| `docs/start-here/README.md` | Updated | Serves as the AI Fundamentals overview, lists the five lessons in sequence, and previews AI history. |
 | `docs/start-here/ai-applications.md` | Updated | Preserves the full lesson, adds nearby risk-source context, and changes draft metadata from review date to update date. |
 | `docs/start-here/ai-vs-ml-vs-dl.md` | Updated | Preserves the full lesson and changes draft metadata from review date to update date. |
 | `docs/start-here/history-of-ai.md` | Updated | Preserves the full lesson, adds inline links to the historical primary sources already listed, and changes draft metadata to update date. |

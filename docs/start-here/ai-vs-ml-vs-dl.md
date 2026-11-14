@@ -146,3 +146,7 @@ AI is the broad field; machine learning is one major approach within it; deep le
 - [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
 - [Deep Learning book](https://www.deeplearningbook.org/)
 - [Stanford CS229: Machine Learning](https://cs229.stanford.edu/)
+
+---
+
+[← Previous: What Is Artificial Intelligence?](what-is-ai.md) · [Next: A Short History of Artificial Intelligence →](history-of-ai.md)

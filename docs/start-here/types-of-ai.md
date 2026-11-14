@@ -164,3 +164,7 @@ Design a simple architecture for an expense categorization application. Decide w
 - [Google Machine Learning Glossary](https://developers.google.com/machine-learning/glossary)
 - [Stanford CS221: Artificial Intelligence](https://stanford-cs221.github.io/autumn2026/)
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+---
+
+[← Previous: A Short History of Artificial Intelligence](history-of-ai.md) · [Next: AI Applications in the Real World →](ai-applications.md)
